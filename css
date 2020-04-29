@@ -33,5 +33,13 @@ background:yellow;
 .menu__link:hover {
 
 }
+.mostrar{
+  left:0;
+}
+.img2{
+margin-top: -60px;
+position:relative;
+z-index:-1000;
+}
 
  
