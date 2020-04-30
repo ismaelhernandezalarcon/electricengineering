@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+ 
+  <head>
+     <meta charset=UTF-8">
+    
+     <title>Electric engineering</title>
+     <style>
+      * {
+         box-sizing: border-box;
+        }
+      body{
+         background-image:url("https://www.previjob.com/previjob_wp/wp-content/uploads/2019/11/electricidad_1-1.jpg");
+         background-size:100% 100%;
+         background-attachment: fixed;
+         font-family: 'Open Sans', sans-serif;
+         margin:0;
+        }
+
+
+     h1 {
+          font-family: 'Orbitron', sans-serif;
+          letter-spacing: 2px;
+          font-size:53px;
+          position:absolute;
+          margin:0;
+          color:white;
+           background-color:red;
+        }
+     .nav {
+       position: absolute;
+       top: 60px;
+       left: 0%;
+       width: 100%;
+       transition: 0.4s;
+    }
+     .menu {
+       text-decoration: none;
+       padding: 0;
+       margin: 0;
+      }
+   .menu__link {
+     display: block;
+     padding: 15px;
+     background: white;
+     text-decoration: none;
+     color: red;
+    }
+ .menu__link:hover, .select {
+     background: red;
+     color: white;
+    }
+  .mostrar{
+    left:0;
+                                                                                           
+   }
+ .titulo2{
+     position: relative;
+     color:red;
+     text-align: center;
+     top:400px;
+     font-size:30px;
+    
+     
+   }
+
+
+     </style>
+     <script>
+       var Menu = document.getElementById("menu");
+       var nav = document.getElementById("nav");
+
+       Menu.addEventListener("click",function(){
+         nav.classList.toggle("aparecer");
+       });
+     </script>
+              
+    
+   </head>
+ <body>
+      <header class="header">
+      <div class="contenedor">
+        <h1 class="logo">FUTURELECTRIC</h1>
+        
+        <nav class="nav" id="nav">
+          <ul class="menu">
+            <li class="menu__item"><a href="/" class="menu__link select">Inicio</a></li>
+            <li class="menu__item"><a href="cursos.html" class="menu__link">Best Seller</a></li>
+            <li class="menu__item"><a href="docentes.html" class="menu__link">Future</a></li>
+            <li class="menu__item"><a href="localizacion.html" class="menu__link">¿Donde estamos?</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+     
+    <h2 class="titulo2">Apuesta por nuestro futuro con una mayor comodidad y garantía.</h2>
+ 
+ </body>
+ </html>
