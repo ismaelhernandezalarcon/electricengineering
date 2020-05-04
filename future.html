@@ -24,20 +24,22 @@
           position:absolute;
           margin:0;
           color:red;
+          top:0px;
           
         }
-     .nav {
+   .nav {
+        
        position: absolute;
-       top: 85px;
-       left: 90%;
-       width: 100%;
+       top: 0px;
+       width:100%;
+       
        transition: 0.4s;
     }
      .menu {
+       float:right;
        text-decoration: none;
        padding: 0;
        margin: 0;
-       list-style: none;
       }
    .menu__link {
      display: block;
@@ -54,14 +56,14 @@
     left:0;
                                                                                            
    }
+
  .titulo2{
      position: relative;
      color:black;
      text-align: center;
      top:100px;
      font-size:40px;
-     background-color:white; 
-    
+     background-color:white;
      
    }
 
@@ -83,13 +85,15 @@
       <div class="contenedor">
         <h1 class="logo">FUTURELECTRIC</h1>
         
-         <nav class="nav" id="nav">
-          <ul class="menu">
-            <li class="menu__item"><a href="index.html" class="menu__link ">Inicio</a></li>
-            <li class="menu__item"><a href="bestsellers.html" class="menu__link">Best Seller</a></li>
-            <li class="menu__item"><a href="future.html" class="menu__link select">Future</a></li>
-            <li class="menu__item"><a href="localizacion.html" class="menu__link">¿Donde estamos?</a></li>
-          </ul>
+        <nav class="nav" id="nav">
+          <table class="table1" >
+           <tr class="menu">
+             <td class="menu__item"><a href="index.html" class="menu__link ">Inicio</a></td>
+             <td class="menu__item"><a href="bestsellers.html " class="menu__link select">Best Seller</a></td>
+             <td class="menu__item"><a href="future.html" class="menu__link">Future</a></td>
+             <td class="menu__item"><a href="localizacion.html" class="menu__link">¿Donde estamos?</a></td>
+           </tr>
+          </table>
         </nav>
       </div>
     </header>
