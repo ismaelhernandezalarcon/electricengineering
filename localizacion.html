@@ -24,16 +24,18 @@
           position:absolute;
           margin:0;
           color:red;
-           
+           top:0px;
         }
-     .nav {
+      .nav {
+        
        position: absolute;
-       top: 60px;
-       left: -100%;
-       width: 100%;
+       top: 0px;
+       width:100%;
+       
        transition: 0.4s;
     }
      .menu {
+       float:right;
        text-decoration: none;
        padding: 0;
        margin: 0;
@@ -76,7 +78,9 @@
      text-decoration:none;
      font-size:27px;
      }
-
+     .table1{
+      float:right;                                                        
+      }
 
      </style>
      <script>
@@ -91,17 +95,19 @@
     
    </head>
  <body>
-      <header class="header">
+     <header class="header">
       <div class="contenedor">
         <h1 class="logo">FUTURELECTRIC</h1>
         
-         <nav class="nav" id="nav">
-          <ul class="menu">
-            <li class="menu__item"><a href="index.html" class="menu__link ">Inicio</a></li>
-            <li class="menu__item"><a href="bestsellers.html" class="menu__link">Best Seller</a></li>
-            <li class="menu__item"><a href="future.html" class="menu__link">Future</a></li>
-            <li class="menu__item"><a href="localizacion.html" class="menu__link select">¿Donde estamos?</a></li>
-          </ul>
+        <nav class="nav" id="nav">
+          <table class="table1" >
+           <tr class="menu">
+             <td class="menu__item"><a href="index.html" class="menu__link ">Inicio</a></td>
+             <td class="menu__item"><a href="bestsellers.html " class="menu__link ">Best Seller</a></td>
+             <td class="menu__item"><a href="future.html" class="menu__link ">Future</a></td>
+             <td class="menu__item"><a href="localizacion.html" class="menu__link select">¿Donde estamos?</a></td>
+           </tr>
+          </table>
         </nav>
       </div>
     </header>
