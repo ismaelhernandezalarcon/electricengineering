@@ -2,7 +2,7 @@
  
   <head>
      <meta charset=UTF-8">
-    
+     <link href="https://file.myfontastic.com/YZM8ZEmbtofk6dXfCMWMeV/icons.css" rel="stylesheet">
      <title>Electric engineering</title>
      <style>
       * {
@@ -27,37 +27,32 @@
           background-color:red;
           top:0px;
         }
-     .nav {
-        
-       position: absolute;
-       top: 0px;
-       width:100%;
-       
-       transition: 0.4s;
-    }
-     .menu {
-       float:right;
-       text-decoration: none;
-       padding: 0;
-       margin: 0;
-      }
-   .menu__link {
-     display: block;
-     padding: 15px;
-     background: white;
-     text-decoration: none;
-     color: red;
-    }
- .menu__link:hover, .select {
-     background: red;
-     color: white;
-      text-decoration-style: wavy;
-
-    }
-  .mostrar{
-    left:0;
-                                                                                           
-   }
+    .nav {
+  position: absolute;
+  top: 60px;
+  left: -100%;
+  width: 100%;
+  transition: all 0.4s;
+}
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.menu__link {
+  display: block;
+  padding: 15px;
+  background: red;
+  text-decoration: none;
+  color: white;
+}
+.menu__link:hover, .select {
+  background: white;
+  color: red;
+}
+.mostrar {
+  left: 0;
+}
  .titulo2{
      position: relative;
      color:red;
@@ -84,19 +79,17 @@
     
    </head>
  <body>
-      <header class="header">
+     <header class="header">
       <div class="contenedor">
-        <h1 class="logo">FUTURELECTRIC</h1>
-        
+        <h1 class="logo">I.E. Nobel</h1>
+        <span class="icon-menu" id="btn-menu"></span>
         <nav class="nav" id="nav">
-          <table class="table" >
-           <tr class="menu">
-             <td class="menu__item"><a href="index.html" class="menu__link select">Inicio</a></td>
-             <td class="menu__item"><a href="bestsellers.html" class="menu__link">Best Seller</a></td>
-             <td class="menu__item"><a href="future.html" class="menu__link">Future</a></td>
-             <td class="menu__item"><a href="localizacion.html" class="menu__link">¿Donde estamos?</a></td>
-           </tr>
-          </table>
+          <ul class="menu">
+            <li class="menu__item"><a href="/" class="menu__link select">Inicio</a></li>
+            <li class="menu__item"><a href="cursos.html" class="menu__link">Cursos</a></li>
+            <li class="menu__item"><a href="docentes.html" class="menu__link">Docentes</a></li>
+            <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
+          </ul>
         </nav>
       </div>
     </header>
