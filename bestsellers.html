@@ -1,22 +1,14 @@
 <!DOCTYPE html>
- 
   <head>
      <meta charset=UTF-8">
-    
      <title>Electric engineering</title>
      <style>
-      * {
-         box-sizing: border-box;
-        }
       body{
          background-image:url("Screenshot_20200430-134535.png");
          background-size:100% 100%;
          background-attachment: fixed;
-         font-family: 'Open Sans', sans-serif;
-         margin:0;
+         font-family: 'Open Sans', sans-serif; 
         }
-
-
      h1 {
           font-family: 'Orbitron', sans-serif;
           letter-spacing: 2px;
@@ -27,19 +19,14 @@
           top:0px;
           
         }
- .nav {
-        
+ .nav { 
        position: absolute;
        top: 0px;
        width:100%;
-       
-       transition: 0.4s;
     }
      .menu {
        float:right;
        text-decoration: none;
-       padding: 0;
-       margin: 0;
       }
    .menu__link {
      display: block;
@@ -52,26 +39,18 @@
      background: red;
      color: white;
     }
-  .mostrar{
-    left:0;
-                                                                                           
-   }
-
  .titulo2{
      position: relative;
-     color:black;
      text-align: center;
      top:100px;
      font-size:40px;
-     background-color:white;
-     
+     background-color:white; 
    }
    .table {
        width:100%;                                                       
        top:120px;
        position:relative;
       }
-  
      .img2{
       margin-left:0%;
        float:right;                                                      
@@ -89,22 +68,15 @@
      margin-left:5%;  
      font-size:20px;
      width:70%;
-
      text-align:justify;
      }
 
     h4{
       position:relative;
       top:730px;
-      
       text-align:center;
       font-size:30px;
-
-
       }
-
-     
-
      .img3 {
        margin-left:0%;
        float:right;                                                      
@@ -124,76 +96,41 @@
       float:right;                                                        
       }
      </style>
-     <script>
-       var Menu = document.getElementById("menu");
-       var nav = document.getElementById("nav");
-
-       Menu.addEventListener("click",function(){
-         nav.classList.toggle("aparecer");
-       });
-          
-     </script>
-              
-    
    </head>
  <body>
       <header class="header">
-      <div class="contenedor">
+     
         <h1 class="logo">FUTURELECTRIC</h1>
         
         <nav class="nav" id="nav">
           <table class="table1" >
            <tr class="menu">
-             <td class="menu__item"><a href="index.html" class="menu__link ">Inicio</a></td>
-             <td class="menu__item"><a href="bestsellers.html " class="menu__link select">Best Seller</a></td>
-             <td class="menu__item"><a href="future.html" class="menu__link">Future</a></td>
-             <td class="menu__item"><a href="localizacion.html" class="menu__link">¿Donde estamos?</a></td>
+             <td ><a href="index.html" class="menu__link ">Inicio</a></td>
+             <td ><a href="bestsellers.html " class="menu__link select">Best Seller</a></td>
+             <td><a href="future.html" class="menu__link">Future</a></td>
+             <td><a href="localizacion.html" class="menu__link">¿Donde estamos?</a></td>
            </tr>
           </table>
         </nav>
-      </div>
     </header>
-     
     <h2 class="titulo2">Best sellers</h2>
     <table class="table">
       <tr>
-
         <h3>Powerwall </h3>
-
-       
-
-       
-
      </tr>
-
      <tr>
-
        <td><p>This battery designed by our engineers is capable of storing 10 kWh. It works in a range of 350 to 450 Volts. The intensity varies from 5.8 amps to 8.6 amps maximum.This battery can supply a house for an entire day. More than 2 million have been sold in the last year and there is a waiting list of 100,000.</p></td>
 
        <td class:"celda4" ><img src="Actualidad_313234049_130229620_1706x960.jpg" alt="" width="100%" height="40%" class="img2"></td>
-
-      
-
      </tr>
       <tr>
-
         <h4>Cybertruck </h4>
-
-       
-
      </tr>
-
      <tr>
-
        <td><p class="p2">The new jewel of electrical engineering, its motto says all: designed to have the utility of a van with the performance of a sports car, this pick-up accelerates from 0-100km / h in 3.5s with 4 seats. It has not been released and more than 80,000 have already been ordered</p1></td>
 
        <td class:"celda8"><img src="Tesla-Cybertruck2.jpg" alt="" width="100%" height="55%" class="img3"></td>
-
-       
-
      </tr>
-
     </table>
- 
  </body>
  </html>
